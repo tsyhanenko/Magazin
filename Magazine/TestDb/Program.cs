@@ -24,7 +24,7 @@ namespace TestDb
                 GoodPicture = "qwerty"
             };
             try
-            {
+            { 
                 context.GoodsDbSet.Add(a);
                 context.SaveChanges();
                 Console.WriteLine("Db created succesfully");
