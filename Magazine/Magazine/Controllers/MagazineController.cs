@@ -19,7 +19,7 @@ namespace Magazine.Controllers
         public ActionResult Index()
         {
             var model = context.GoodsDbSet;
-            return View();
+            return View(model);
         }
     }
 }

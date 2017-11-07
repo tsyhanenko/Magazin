@@ -1,8 +1,40 @@
-﻿
+﻿@model IEnumerable<ClassLibrary1.DB.goods>  
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Index</h2>
+
+
+
+
+
+        @foreach (var item in Model)
+        {
+            <div class="card bg-info" style="width: 20rem;display:inline-block;margin:10px">
+                @*<img class="card-img-top" src="~/Pictures/1.jpg" alt="Card image cap">*@
+                <div class="card-body">
+                    <h4 class="card-title">@item.GoodName</h4>
+                    <p class="card-text">@item.GoodDescription</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                   
+                    <li class="list-group-item">@item.GoodPrice  </li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">
+                   <img src="~/Pictures/1.jpg" height="100"/>
+                    </div>
+                </div>
+        }
+      
+     
+
+
+
+
 
