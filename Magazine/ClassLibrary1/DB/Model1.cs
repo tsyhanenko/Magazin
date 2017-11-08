@@ -13,6 +13,7 @@ namespace ClassLibrary1.DB
         }
 
       public  DbSet<goods>GoodsDbSet { get; set; }
+
     }
 
    
