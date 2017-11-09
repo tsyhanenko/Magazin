@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ClassLibrary1.DB.goods>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Item Category</th>
+            <th scope="col">Item Description</th>
+           <th scope="col">Iten Price </th>
+            <th scope="col">Item Count </th>
+            <th scope="col"> Picture</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.GoodId</th>
+                <td>@item.GoodName</td>
+                <td>@item.GoodCategory</td>
+                <td>@item.GoodDescription</td>
+                <td>@item.GoodPrice </td>
+                <td>@item.GoodCount</td>
+                <td><img src="@item.GoodPicture" /></td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new {  },
+                  new { @class = "btn btn-primary btn-sm" })
+                </td>
+            </tr>
+        }
+        
+     
+    </tbody>
+</table>
