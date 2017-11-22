@@ -1,0 +1,17 @@
+﻿@model Magazine.Models.GoodsViewModel
+
+
+@foreach (var i in Model.Goods)
+{
+    <div class="card" style="width: 20rem;">
+        <div class="card-body">
+            <img src="/Images/@i.GoodPicture" width="150" height="150" />
+            <h4 class="card-title">Имя: @i.GoodName</h4>
+            <h4 class="card-title">Возраст: @i.GoodCategory</h4>
+            <h4 class="card-title">Группа: @i.GoodDescription</h4>
+            <h4 class="card-title">Группа: @i.GoodPrice</h4>
+        </div>
+    </div>
+    <br />
+    <br />
+}

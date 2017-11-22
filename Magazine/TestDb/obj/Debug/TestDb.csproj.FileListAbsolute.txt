@@ -10,3 +10,7 @@ C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\EntityFramework.S
 C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.exe
 C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.pdb
 C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.csprojResolveAssemblyReference.cache
+C:\Users\Дима\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.csprojResolveAssemblyReference.cache
+C:\Users\Дима\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.exe
+C:\Users\Дима\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.pdb

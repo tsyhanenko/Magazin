@@ -1,16 +1,25 @@
-﻿@model IEnumerable<ClassLibrary1.DB.goods>  
+﻿@model Magazine.Models.GoodsViewModel
+    
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    AjaxOptions options = new AjaxOptions
+    {
+        UpdateTargetId = "Goods_list"
+    };
 }
 
-<h2>Index</h2>
+        <div id="Goods_list">
+            @Html.Action("GetGoodsList")
+        </div>
+         <div id="pageLinks">
+             @Ajax.PageLinks(Model.Pages, x=>Url.Action("GetGoodsList",new { id = x}), "Goods_list")
+         </div>
+ 
 
 
 
-
-
-        @foreach (var item in Model)
+        @*@foreach (var item in Model)
         {
             <div class="card" style="width: 20rem; display: inline-block; margin: 70px">
                 <img class="card-img-top" src="@item.GoodPicture" alt="Card image cap">
@@ -25,10 +34,10 @@
                 </ul>
                 <div class="card-body">
                     @*<a href="#" class="card-link"> Add to a Cart </a>*@
-                    @Html.ActionLink("Add to a cart", "Index", "CARD", new {  }, new { @class = "btn btn-info" })
+                   @*// @Html.ActionLink("Add to a cart", "Index", "CARD", new {  }, new { @class = "btn btn-info" })
                 </div>
             </div>
-        }
+        }*@
       
    
 
