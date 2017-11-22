@@ -16,7 +16,7 @@ namespace ClassLibrary1.DB
         public string GoodName { get; set; }
         public string GoodCategory { get; set; }
 
-        public int GoodCount { get; set; }
+       
         public string GoodDescription { get; set; }
         public string GoodPicture { get; set; }
         public int GoodPrice { get; set; }

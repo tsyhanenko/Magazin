@@ -11,17 +11,17 @@ namespace Magazine.Controllers
     public class MagazineController : Controller
     {
 
-        IMyContext context;
+       // IMyContext context;
         //Model1 context;
+        static List<goods> Goods = StaffRepository.GetRep();
+        public MagazineController()
+		{
+	//		context = new Model1();
+		}
 
-        public MagazineController(IMyContext c)
+		public ActionResult Index()
         {
-            context = c;
-        }
-
-        public ActionResult Index()
-        {
-            var model = context;
+            var model = Goods;
             return View(model);
         }
     }

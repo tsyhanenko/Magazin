@@ -12,10 +12,16 @@ namespace Magazine.Models
     }
     public class MyContext : IMyContext
     {
-        public MyContext()
-        public IEnumerable<Model1> GetGoods()
+		Model1 context;
+
+		public MyContext(Model1 t)
+		{
+			context = t;
+		}
+
+		public IEnumerable<Model1> GetGoods()
         {
-            
-        }
+			yield return context;
+		}
     }
 }

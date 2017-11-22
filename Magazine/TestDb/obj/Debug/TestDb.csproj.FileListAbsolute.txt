@@ -1,0 +1,12 @@
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\TestDb.exe.config
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\TestDb.exe
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\TestDb.pdb
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\ClassLibrary1.dll
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\EntityFramework.dll
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\ClassLibrary1.pdb
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\EntityFramework.xml
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.exe
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.pdb
+C:\Users\student.LAN\Desktop\Magazin\Magazine\TestDb\obj\Debug\TestDb.csprojResolveAssemblyReference.cache
